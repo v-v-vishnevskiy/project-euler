@@ -11,6 +11,7 @@
 
    Target: x86_64-apple-darwin18.2.0
 
+ - Go version go1.11.1 darwin/amd64
 
 ## My computer
 
@@ -23,6 +24,6 @@
 
 ## Performance tests
 
-Problem | Iterations | C++ | Python
---- | --- | --- | ---
-1 | 10000 | 0.057s | 1.385s
+Problem | Iterations | C++ | Go | Python
+--- | --- | --- | --- | ---
+1 | 10000 | 0.057s | 0.028s | 1.385s
