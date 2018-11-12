@@ -2,7 +2,7 @@
 
 long int sum_of_multiples_of_3_and_5(int limit) {
 	long int result = 0;
-	for (int i = 1; i < 1000; i++) {
+	for (int i = 1; i < limit; i++) {
 		if (i % 3 == 0 or i % 5 == 0) {
 			result += i;
 		}
@@ -12,7 +12,7 @@ long int sum_of_multiples_of_3_and_5(int limit) {
 
 void time_test() {
 	long int result = 0;
-	for (int i = 0; i < 10000; i++) {
+	for (int i = 0; i < 10'000; i++) {
 		result = sum_of_multiples_of_3_and_5(1000);
 	}
 	std::cout << result << '\n';
