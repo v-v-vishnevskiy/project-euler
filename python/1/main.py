@@ -7,7 +7,7 @@ def sum_of_multiples_of_3_and_5(limit: int) -> int:
 
 def time_test():
     result = None
-    for _ in range(10000):
+    for _ in range(10_000):
         result = sum_of_multiples_of_3_and_5(1000)
     print(result)
 
