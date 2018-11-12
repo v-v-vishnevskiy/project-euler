@@ -2,5 +2,5 @@
 
 for key in "$@"
 do
-time $key -m unittest python/test.py
+$key -m unittest python/test.py
 done
