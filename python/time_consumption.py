@@ -6,12 +6,13 @@ import solution_2
 
 
 def time_consumption(fn, solution_number: str, iterations: int) -> float:
-    t1 = time.monotonic()
+    total_time = 0
     for _ in range(iterations):
+        t1 = time.monotonic()
         fn()
-    t2 = time.monotonic()
-    print("{}: {:.3f}s".format(solution_number, t2 - t1))
-    return t2 - t1
+        total_time += (time.monotonic() - t1)
+    print("{}: {:.3f}s".format(solution_number, total_time))
+    return total_time
 
 
 if __name__ == "__main__":
