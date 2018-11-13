@@ -1,4 +1,5 @@
 a.out*
 main
+solution_*
 .vscode
 __pycache__
