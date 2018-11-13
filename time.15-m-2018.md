@@ -1,7 +1,7 @@
-# Here is my solutions of problems from [Project Euler](https://projecteuler.net/archives).
+# [Back](README.md)
 
 
-## Used programming languages
+## Programming languages
 
 - Python 3.6.7 [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
 
@@ -13,7 +13,7 @@
 
 - Go version go1.11.2 darwin/amd64
 
-## My computer
+## Computer
 
 - MacBook Pro (15-inch, 2018)
 - Processor 2,2 GHz Intel Core i7-8750H
