@@ -13,9 +13,9 @@ def solution() -> int:
     prev = 1
     current = 1
     while current < limit:
-    	old_current = current
-    	current = current + prev
-    	prev = old_current
-    	if current % 2 == 0:
-    		result += current
+        old_current = current
+        current = current + prev
+        prev = old_current
+        if current % 2 == 0:
+            result += current
     return result

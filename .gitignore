@@ -1,5 +1,5 @@
-a.out*
-main
-solution_*
+cpp/bin/*
+go/bin/*
+.idea
 .vscode
 __pycache__

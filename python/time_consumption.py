@@ -18,6 +18,6 @@ def time_consumption(fn, solution_number: str, iterations: int) -> float:
 if __name__ == "__main__":
     print("Python", sys.version)
     total = 0
-    total += time_consumption(solution_1.solution, "1", 10_000)
-    total += time_consumption(solution_2.solution, "2", 100_000)
+    total += time_consumption(solution_1.solution, "1", 10000)
+    total += time_consumption(solution_2.solution, "2", 100000)
     print("Total: {:.3f}s".format(total))
